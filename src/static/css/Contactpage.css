@@ -1,0 +1,113 @@
+/**
+TEAM MEMBERS
+Nandhimandalam, Lakshmi - 1001719397
+Garikipati, Kavya Sri - 1001953373
+Allakonda, Saiteja - 1001991721
+
+References:
+WDM course slides
+W3 Schools
+
+Font Used:
+Sans-serif
+**/
+
+
+
+*
+{
+    margin : 0;
+    padding: 0;
+}
+body
+{
+    background-color: #efefef;
+    font-family: sans-serif;
+    color:white;
+    background-image: url('../Images/imagecontact.png');
+    height:100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    font-size: 50px;
+}
+.container
+{
+    width: 500px;
+    background-color: rgb(158, 139, 139);
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+form
+{
+    margin: 35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.button
+{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;   
+}
+header::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav
+{
+    float: right;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+  
+  li a:hover {
+    background-color:#111;
+  }

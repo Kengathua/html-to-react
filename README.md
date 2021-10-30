@@ -1,3 +1,7 @@
+# To run the app 
+Enter the server adress and add login to the url is
+i.e http://localhost:3000/login
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
